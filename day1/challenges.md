@@ -22,7 +22,7 @@ volume(n : Nat) -> async Nat
 actor {
   var vol : Nat = 0;
 
-  public func cube(n : Nat) : async Nat {
+  public func volume(n : Nat) : async Nat {
     vol := n**3;
     return vol;
   };
@@ -37,7 +37,7 @@ hours_to_minutes(n : Nat) -> async Nat
 actor {
   var min : Nat = 0;
 
-  public func mins(n : Nat) : async Nat {
+  public func hours_to_minutes(n : Nat) : async Nat {
     min := n*60;
     return min;
   };
