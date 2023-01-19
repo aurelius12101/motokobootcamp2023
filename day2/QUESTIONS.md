@@ -60,7 +60,7 @@ actor {
   };
   public func add_language(new_language : Text) : async [Text] {
     buf.add(new_language);
-    return(buf.toArray())
+    return(buf.toArray());
   };
 }
 ```
